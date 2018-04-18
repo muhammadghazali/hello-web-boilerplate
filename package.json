@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "precommit": "pretty-quick --staged"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "1.12.1",
+    "pretty-quick": "^1.4.1",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3"
